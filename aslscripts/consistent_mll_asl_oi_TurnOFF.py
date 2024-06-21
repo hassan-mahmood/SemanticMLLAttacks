@@ -94,7 +94,7 @@ class SemanticMLLAttack:
 		# Load the asymmetric loss model
 		imgsize=448
 		args={'image_size':imgsize,'model_name':'tresnet_l',
-		'model_path':'/mnt/raptor/hassan/weights/asl/Open_ImagesV6_TRresNet_L_448.pth',
+		'model_path':'Open_ImagesV6_TRresNet_L_448.pth',
 		'num_classes':80,'workers':0
 		}
 		args=argparse.Namespace(**args)
